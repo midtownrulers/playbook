@@ -1,5 +1,5 @@
 backend:
-  name: git_gateway
+  name: git-gateway
 
 # These lines should *not* be indented
 media_folder: "static/img" # Media files will be stored in the repo under static/images/uploads
