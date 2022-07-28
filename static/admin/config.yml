@@ -16,13 +16,14 @@ collections:
   folder: docs
   nested:
     depth: 100
-  meta: { path: { widget: string, label: "Path", index_file: 'index' }}
   identifier_field: title
+  path: "{{fields.path}}/{{slug}}"
   extension: md
   widget: "list"
   create: true
   slug: "{{fields.slug}}"
   fields:
+    - { name: path, label: Path, widget: string }
     - { name: title, label: Title, widget: string }
     - { name: body, label: Body, widget: markdown }
     - { name: slug, label: Slug, widget: string }
