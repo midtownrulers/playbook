@@ -11,8 +11,8 @@ logo_url: "https://playbook.midtownrulers.org/img/logo.png"
 
 
 collections:
-- name: playbook
-  label: "playbook"
+- name: docs
+  label: "Docs"
   folder: docs
   nested:
     depth: 100
@@ -21,8 +21,21 @@ collections:
   extension: md
   widget: "list"
   create: true
-  slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+  slug: "{{slug}}"
   fields:
     - { name: title, label: Title, widget: string }
     - { name: body, label: Body, widget: markdown }
+    - { name: slug, label: Slug, widget: string }
+- name: categories
+  label: "Categories"
+  folder: docs
+  identifier_field: label
+  filter: {field: extension, value: yml} 
+  widget: list
+  create: true
+  extension: yml
+  path: '{{fields.slug}}/'
+  slug: '_category_'
+  fields:
+    - { name: label, label: Title, widget: string }
     - { name: slug, label: Slug, widget: string }
