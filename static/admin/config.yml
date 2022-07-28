@@ -34,7 +34,7 @@ collections:
   widget: list
   create: true
   extension: yml
-  path: '{{fields.slug}}/'
+  path: '{{fields.slug}}'
   slug: '_category_'
   fields:
     - { name: label, label: Title, widget: string }
