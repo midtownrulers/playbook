@@ -17,7 +17,7 @@ collections:
   nested:
     depth: 100
   identifier_field: title
-  path: "{{paths}}/{{slug}}"
+  meta: { path: "{{fields.paths}}/{{slug}}" }
   extension: md
   widget: "list"
   create: true
