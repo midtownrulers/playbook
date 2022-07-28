@@ -21,8 +21,7 @@ collections:
   extension: md
   widget: "list"
   create: true
-  slug: "{{slug}}"
-  filename: "{{slug}}"
+  slug: "{{fields.slug}}"
   fields:
     - { name: title, label: Title, widget: string }
     - { name: body, label: Body, widget: markdown }
