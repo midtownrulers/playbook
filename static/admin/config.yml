@@ -16,6 +16,7 @@ collections:
   folder: docs
   nested:
     depth: 100
+  meta: { path: { widget: string, label: "Path", index_file: 'index' }}
   identifier_field: title
   extension: md
   widget: "list"
