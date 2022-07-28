@@ -17,6 +17,7 @@ collections:
   nested:
     depth: 100
   meta: { path: { widget: string, label: "Path", index_file: 'index' }}
+  path 
   identifier_field: title
   extension: md
   widget: "list"
@@ -30,11 +31,10 @@ collections:
   label: "Categories"
   folder: docs
   identifier_field: label
-  filter: {field: extension, value: yml} 
   widget: list
   create: true
   extension: yml
-  path: '{{fields.slug}}'
+  path: '{{fields.slug}}/'
   slug: '_category_'
   fields:
     - { name: label, label: Title, widget: string }
