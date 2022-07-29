@@ -20,15 +20,13 @@ jobs:
         TYPESENSE_HOST: ${{ secrets.TYPESENSE_API_KEY }}
         TYPESENSE_PORT: ${{ secrets.TYPESENSE_PORT }}
         TYPESENSE_PROTOCOL: ${{ secrets.TYPESENSE_PROTOCOL }} 
-        CONFIG: '$(cat ~/typesense.config.json | jq -r tostring)'
+        CONFIG: '$(cat /__w/playbook/playbook/typesense.config.json | jq -r tostring)'
       container: 
         image: typesense/docsearch-scraper:latest
         options: -e TYPESENSE_API_KEY -e TYPESENSE_PORT -e TYPESENSE_PROTOCOL -e CONFIG
       steps:
         - name: Check out the repo
           uses: actions/checkout@v2
-        - name: pwd
-          run: pwd
         - name: run the scraper
           run: |
             cd /root &&
