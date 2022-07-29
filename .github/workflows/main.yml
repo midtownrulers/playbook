@@ -27,7 +27,11 @@ jobs:
       steps:
         - name: Check out the repo
           uses: actions/checkout@v2
-        - name: Run the scraper
-          run: pipenv run python -m
+        - name: ls
+          run: ls
+        - name: ls root
+          run: ls /root
+        - name: ls src
+          run: ls ./src/
           
 
