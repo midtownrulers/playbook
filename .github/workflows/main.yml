@@ -20,11 +20,6 @@ jobs:
           - name: Run the scraper
             uses: addnab/docker-run-action@v3
             with:
-                image: typesense/docsearch-scraper:latest
-                options: |
-                  -e TYPESENSE_API_KEY=${{ secrets.TYPESENSE_API_KEY }} 
-                  -e TYPESENSE_HOST=${{ secrets.TYPESENSE_API_KEY }}
-                  -e TYPESENSE_PORT=${{ secrets.TYPESENSE_PORT }}
-                  -e TYPESENSE_PROTOCOL=${{ secrets.TYPESENSE_PROTOCOL }}
-                  -e "CONFIG=$(cat typesense.config.json | jq -r tostring)"
+              image: typesense/docsearch-scraper:latest
+              options: "-e TYPESENSE_API_KEY=${{ secrets.TYPESENSE_API_KEY }}  -e TYPESENSE_HOST=${{ secrets.TYPESENSE_API_KEY }} -e TYPESENSE_PORT=${{ secrets.TYPESENSE_PORT }} -e TYPESENSE_PROTOCOL=${{ secrets.TYPESENSE_PROTOCOL }} -e 'CONFIG=$(cat typesense.config.json | jq -r tostring)'"
 
