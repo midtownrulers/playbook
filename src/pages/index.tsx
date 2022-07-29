@@ -30,7 +30,7 @@ export default function Home(): JSX.Element {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description={`${siteConfig.description}`}>
+      description={`${siteConfig.tagline}`}>
       <HomepageHeader />
       <main>
       </main>
