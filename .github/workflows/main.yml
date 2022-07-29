@@ -12,21 +12,22 @@ on:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-    scraper:
-        name: scraper
-        runs-on: ubuntu-latest
-        steps:
-          - name: Check out the repo
-            uses: actions/checkout@v2
-          - name: Run the scraper
-            uses: addnab/docker-run-action@v3
-            env:
-              TYPESENSE_API_KEY: ${{ secrets.TYPESENSE_API_KEY }}
-              TYPESENSE_HOST: ${{ secrets.TYPESENSE_API_KEY }}
-              TYPESENSE_PORT: ${{ secrets.TYPESENSE_PORT }}
-              TYPESENSE_PROTOCOL: ${{ secrets.TYPESENSE_PROTOCOL }} 
-              CONFIG: '$(cat typesense.config.json | jq -r tostring)'
-            with:
-              image: typesense/docsearch-scraper:latest
-              options: -e TYPESENSE_API_KEY -e TYPESENSE_PORT -e TYPESENSE_PROTOCOL -e CONFIG
+  scraper:
+      name: scraper
+      runs-on: ubuntu-latest
+      env:
+        TYPESENSE_API_KEY: ${{ secrets.TYPESENSE_API_KEY }}
+        TYPESENSE_HOST: ${{ secrets.TYPESENSE_API_KEY }}
+        TYPESENSE_PORT: ${{ secrets.TYPESENSE_PORT }}
+        TYPESENSE_PROTOCOL: ${{ secrets.TYPESENSE_PROTOCOL }} 
+        CONFIG: '$(cat typesense.config.json | jq -r tostring)'
+      container: 
+        image: typesense/docsearch-scraper:latest
+        options: -e TYPESENSE_API_KEY -e TYPESENSE_PORT -e TYPESENSE_PROTOCOL -e CONFIG
+      steps:
+        - name: Check out the repo
+          uses: actions/checkout@v2
+        - name: Run the scraper
+          run: pipenv run python -m
+          
 
