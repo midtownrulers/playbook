@@ -29,6 +29,6 @@ jobs:
           uses: actions/checkout@v2
         - name: run the scraper
           run: |
-            cd /root &&
-            pipenv run python -m /root/src/index.py
+            cd /root/src &&
+            pipenv run python -m
 
