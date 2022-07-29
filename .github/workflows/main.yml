@@ -28,5 +28,5 @@ jobs:
               CONFIG: '$(cat typesense.config.json | jq -r tostring)'
             with:
               image: typesense/docsearch-scraper:latest
-              options: -it -e TYPESENSE_API_KEY -e TYPESENSE_PORT -e TYPESENSE_PROTOCOL -e CONFIG
+              options: -i -e TYPESENSE_API_KEY -e TYPESENSE_PORT -e TYPESENSE_PROTOCOL -e CONFIG
 
