@@ -1,5 +1,5 @@
 {
-  "index_name": "docusaurus-2",
+  "index_name": "playbook",
   "start_urls": [
     "https://playbook.midtownrulers.org"
   ],
@@ -40,7 +40,8 @@
       "anchor",
       "url",
       "url_without_anchor",
-      "type"
+      "type",
+      "title"
     ]
   },
   "conversation_id": [
