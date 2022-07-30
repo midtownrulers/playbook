@@ -1,6 +1,5 @@
 ---
 title: 1-3-1 Zone Press
-slug: 1-3-1-zone-press
 ---
 Defender in middle of key and traps on offensive player who gets ball from inbounder.
 
