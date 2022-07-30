@@ -18,8 +18,6 @@ jobs:
         steps:
           - name: Check out the repo
             uses: actions/checkout@v2
-          - name: install jq
-            run: apt install jq -y
           - name: Run the scraper
             uses: addnab/docker-run-action@v3
             env:
