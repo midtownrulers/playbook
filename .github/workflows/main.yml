@@ -25,6 +25,6 @@ jobs:
               TYPESENSE_HOST: ${{ secrets.TYPESENSE_API_KEY }}
               TYPESENSE_PORT: ${{ secrets.TYPESENSE_PORT }}
               TYPESENSE_PROTOCOL: ${{ secrets.TYPESENSE_PROTOCOL }} 
-              CONFIG: '$(cat /home/runner/work/playbook/playbook/typesense.config.json | jq -r tostring)'
             with:
               image: typesense/docsearch-scraper:latest
+              args: -e CONFIG=$(cat /home/runner/work/playbook/playbook/typesense.config.json | jq -r tostring)
