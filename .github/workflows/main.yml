@@ -18,6 +18,8 @@ jobs:
         steps:
           - name: Check out the repo
             uses: actions/checkout@v2
+          - name: list
+            run: pwd
           - name: Run the scraper
             uses: addnab/docker-run-action@v3
             env:
@@ -28,3 +30,4 @@ jobs:
               CONFIG: '$(cat typesense.config.json | jq -r tostring)'
             with:
               image: typesense/docsearch-scraper:latest
+              options:
