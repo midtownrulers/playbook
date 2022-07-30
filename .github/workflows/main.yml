@@ -30,8 +30,7 @@ jobs:
         - name: install modules
           run: |
             cd /root/src &&
-            pipenv install &&
-            pipenv run pip3 install
+            pipenv install
         - name: run the scraper
           run: |
             cd /root/src &&
