@@ -18,13 +18,11 @@ jobs:
         steps:
           - name: Check out the repo
             uses: actions/checkout@v2
-          - name: Run the scraper
-            uses: addnab/docker-run-action@v3
-            env:
-              TYPESENSE_API_KEY: ${{ secrets.TYPESENSE_API_KEY }}
-              TYPESENSE_HOST: ${{ secrets.TYPESENSE_API_KEY }}
-              TYPESENSE_PORT: ${{ secrets.TYPESENSE_PORT }}
-              TYPESENSE_PROTOCOL: ${{ secrets.TYPESENSE_PROTOCOL }} 
+          - name: Run DocSearch Scraper
+            uses: celsiusnarhwal/typesense-scraper@v2
             with:
-              image: typesense/docsearch-scraper:latest
-              args: -e "CONFIG=$(cat /github/workspace/typesense.config.json | jq -r tostring)" -a stdin -a stdout -i
+              api-key: ${{ secrets.TYPESENSE_API_KEY }}
+              host: ${{ secrets.TYPESENSE_HOST }}
+              port: 443
+              protocol: https
+              config: typesense.config.json 
