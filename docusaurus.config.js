@@ -33,10 +33,31 @@ const config = {
       }),
     ],
   ],
-
+  
+  themes: ['docusaurus-theme-search-typesense'],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      typesense: {
+        typesenseCollectionName: 'playbook', // Replace with your own doc site's name. Should match the collection name in the scraper settings.
+      
+        typesenseServerConfig: {
+          nodes: [
+            {
+              host: 'xv875gzyam3s9rwqp-1.a1.typesense.net',
+              port: 443,
+              protocol: 'https',
+            },
+          ],
+          apiKey: 'Fcb9ELXVWmCKWMzjzaUlE7HaFDIWsLjc',
+        },
+
+        // Optional: Typesense search parameters: https://typesense.org/docs/0.21.0/api/search.md#search-parameters
+        typesenseSearchParameters: {},
+
+        // Optional
+      	contextualSearch: true,
+      },
       navbar: {
         title: 'Midtown Playbook',
         logo: {
