@@ -1,5 +1,8 @@
 {
   "index_name": "playbook",
+  "start_urls": [
+    "https://playbook.midtownrulers.org/docs"
+  ],
   "sitemap_urls": [
     "https://playbook.midtownrulers.org/sitemap.xml"
   ],
