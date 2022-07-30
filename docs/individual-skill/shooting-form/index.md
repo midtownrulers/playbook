@@ -1,6 +1,5 @@
 ---
 title: Shooting Form
-slug: shooting-form
 ---
 There are lots of trainers and clinics that can help a player improve their shot. Midtown teaches 4 basic components of good shot form:
 
