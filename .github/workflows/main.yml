@@ -18,8 +18,6 @@ jobs:
         steps:
           - name: Check out the repo
             uses: actions/checkout@v2
-          - name: list
-            run: pwd
           - name: Run the scraper
             uses: addnab/docker-run-action@v3
             env:
@@ -27,7 +25,6 @@ jobs:
               TYPESENSE_HOST: ${{ secrets.TYPESENSE_API_KEY }}
               TYPESENSE_PORT: ${{ secrets.TYPESENSE_PORT }}
               TYPESENSE_PROTOCOL: ${{ secrets.TYPESENSE_PROTOCOL }} 
-              CONFIG: '$(cat typesense.config.json | jq -r tostring)'
+              CONFIG: '$(cat /home/runner/work/playbook/playbook/typesense.config.json | jq -r tostring)'
             with:
               image: typesense/docsearch-scraper:latest
-              options:
