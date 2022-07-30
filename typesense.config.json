@@ -1,12 +1,12 @@
 {
   "index_name": "playbook",
   "start_urls": [
-    "https://playbook.midtownrulers.org"
+    "https://playbook.midtownrulers.org/docs"
   ],
   "sitemap_urls": [
     "https://playbook.midtownrulers.org/sitemap.xml"
   ],
-  "sitemap_alternate_links": true,
+  "sitemap_alternate_links": false,
   "stop_urls": [
     "/tests"
   ],
@@ -40,8 +40,7 @@
       "anchor",
       "url",
       "url_without_anchor",
-      "type",
-      "title"
+      "type"   
     ]
   },
   "conversation_id": [
