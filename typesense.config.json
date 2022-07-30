@@ -6,7 +6,7 @@
   "sitemap_urls": [
     "https://playbook.midtownrulers.org/sitemap.xml"
   ],
-  "sitemap_alternate_links": true,
+  "sitemap_alternate_links": false,
   "stop_urls": [
     "/tests"
   ],
