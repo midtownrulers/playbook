@@ -1,6 +1,5 @@
 ---
 title: 4 v 3 Inbounding Drill
-slug: 4v3-Inbounding-Drill
 ---
 Offense has 3 players - 1 Inbounder, 2 Guards.
 
