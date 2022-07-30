@@ -18,6 +18,8 @@ jobs:
         steps:
           - name: Check out the repo
             uses: actions/checkout@v2
+          - name: install jq
+            run: apt install jq -y
           - name: Run the scraper
             uses: addnab/docker-run-action@v3
             env:
@@ -27,4 +29,4 @@ jobs:
               TYPESENSE_PROTOCOL: ${{ secrets.TYPESENSE_PROTOCOL }} 
             with:
               image: typesense/docsearch-scraper:latest
-              args: -e \"CONFIG=$(cat /github/workspace/typesense.config.json | jq -r tostring)\"
+              args: -e "CONFIG=$(cat /github/workspace/typesense.config.json | jq -r tostring)"
