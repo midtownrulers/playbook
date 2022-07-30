@@ -27,4 +27,4 @@ jobs:
               TYPESENSE_PROTOCOL: ${{ secrets.TYPESENSE_PROTOCOL }} 
             with:
               image: typesense/docsearch-scraper:latest
-              args: -e "CONFIG=$(cat /github/workspace/typesense.config.json | jq -r tostring)"
+              args: -e "CONFIG=$(cat /github/workspace/typesense.config.json | jq -r tostring)" -a stdin -a stdout -i
