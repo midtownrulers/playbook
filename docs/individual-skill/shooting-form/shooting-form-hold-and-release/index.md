@@ -1,5 +1,5 @@
 ---
-title: Shooting Form Hold and Release
+title: Shooting Form Hold and Release Drill
 ---
 Player stands on lane and puts ball on ground and feet shoulder width apart facing Partner on other side of the lane. 
 
