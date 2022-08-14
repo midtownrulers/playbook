@@ -7,12 +7,18 @@ Player bends over and puts shooting hand on top of ball with finger spread. Play
 
 Player makes sure elbow moves out away from the body and at a 90 degree angle with elbow driving upwards.
 
-Player makes sure they can see the Partner through the window created by their arms, and then HOLDS for 30 seconds, making sure to keep their elbow driving out, their eyes looking through the window, and the hands correctly positioned on the ball.
+Player makes sure they can see the Partner through the window created by their arms, and then HOLDS for 30 seconds, making sure to:
 
-At coaches signal, Player follows through to release shot to Partner.
+1. Keep their elbow driving out
 
-Partner repeats.
+2. Eyes looking through the window, 
 
+3. Hands correctly positioned on the ball, 
 
+4. Knees bent and body under ball
 
-At coaches single t
+At coaches signal, Player follows through with snap release and index and middle fingers rolling off the ball last
+
+Partner catches and repeats back.
+
+Coach walks around and adjusts form as needed.
