@@ -1,5 +1,5 @@
 ---
-title: Chair Drill for Stance
+title: "Defensive Stance Chair Drill "
 ---
 
 
