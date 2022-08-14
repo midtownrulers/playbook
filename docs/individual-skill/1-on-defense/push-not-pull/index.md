@@ -1,5 +1,5 @@
 ---
-title: Swing Pass Closeouts
+title: Swing Pass Closeout Drill
 ---
 ### **Player starts on wing, passes to coach at top of key**
 
