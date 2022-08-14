@@ -1,5 +1,5 @@
 ---
-title: Close Out Stance
+title: Chair Drill for Stance
 ---
 
 
