@@ -1,24 +1,14 @@
 ---
-title: Push Not Pull
+title: Swing Pass Closeouts
 ---
+### **Player starts on wing, passes to coach at top of key**
 
+Coach passes to teammate in opposite corner
 
-### **5 Main Pillars to Become a Lockdown On Ball Basketball Defender**
+Player immediately sprints to opposite corner to close out on teammate
 
-1. Basketball Defense Stance
+\- HIgh hands, chop feet, throw weight back
 
-   1. Nose ABOVE Toes
-2. Push NOT pull
-3. Glass Ceiling
+Teammate either puts up shot or pump fakes and drives to basket.
 
-   1. Coffee mug
-4. Hand Signals
-
-   1. Deflector
-   2. Digger
-5. Closing Out
-
-   1. Weight Back
-   2. High Hands
-   3. Couple Choppy Feet
-   4. Sliding Angles
+Repeat.
