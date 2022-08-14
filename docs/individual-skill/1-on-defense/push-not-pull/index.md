@@ -1,9 +1,11 @@
 ---
 title: Swing Pass Closeout Drill
 ---
-### **Player starts on wing, passes to coach at top of key**
+SETUP
 
-Coach passes to teammate in opposite corner
+3 Players, 1 on top, 2 in corners
+
+Player in corner passes to top of key, who then passes to opposite corner.
 
 Player immediately sprints to opposite corner to close out on teammate
 
