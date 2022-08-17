@@ -1,6 +1,14 @@
 ---
-title: 3 Man Game
+title: The 2 Man Game
 ---
-3 Man basketball is ideal for teaching cutting, catching, and screening/rolling.  Its much easier to coach good hard cuts with 3 because to get open players will have to move.  
+2 Man basketball is to teach building blocks of playing with teammates and learn timing.
 
-Important to teach planting foot and pushing off to cut explosively with hands out to catch.  Passer must complete strong pass and then cut to basket with hand up ready to catch and shoot
+Give N Go - Pass to teammate and cut to basket to get pas back.
+
+Bump Behind - Pass to teammate and follow behind as they drive to basket and turn to give ball back
+
+Screen and Roll - Set screen and roll to basket to receive assist
+
+Drift Down - stay parallel with teammate driving to basket to receive outlet pass for corner shot
+
+T
