@@ -1,4 +1,12 @@
 ---
 title: The 3 Man Game
 ---
-The 3 Man game is ideal for players working together on either side of the court and utilizes many of the 2 Man Game's moves and combines them with off ball screens and back cuts to the basket.
+The 3 Man Game fundamentals include:
+
+Explosive cutting back to perimeter with hands up and all the way through the lane
+
+Making sure there is offensive rotation at the top of the key
+
+Off ball screens and rolls
+
+Communication on defense
